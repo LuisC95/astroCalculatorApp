@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import LoginForm from './src/components/LoginForm';
 
 export default function App() 
@@ -11,7 +11,7 @@ export default function App()
       <Text>Luis Carmona</Text>
       <StatusBar style="auto" />
       
-      
+      <LoginForm />
     </View>
   );
 }
